@@ -1,0 +1,17 @@
+#a{
+    font-size: 40px;
+    animation-name: box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    width:180px;
+    height:100px;
+    position: relative;
+
+}
+@keyframes box{
+    0%{background-color: rgb(31, 178, 5);left:0px;top:0px}
+    30%{background-color: rgb(143, 175, 15);left:500px;top:500px}
+    60%{background-color: rgb(202, 23, 127);left:0px;top:500px}
+    75%{background-color: rgb(13, 147, 94);right:500px;top:500px}
+    100%{background-color: rgb(155, 11, 11);left:502px;top:500px}
+}
